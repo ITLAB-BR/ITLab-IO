@@ -1,0 +1,30 @@
+{
+    "projects": [
+        {
+            "id": "spa-angular",
+            "name": "SPA Angular",
+            "url": "https://dev.azure.com/itlabbrasil//ITLab.IO/_git/spa-angular"
+        },
+        {
+            "id": "api-netcore",
+            "name": "API .NET Core",
+            "url": "https://dev.azure.com/itlabbrasil//ITLab.IO/_git/api-netcore"
+        }
+    ],
+    "bundles": [
+        {
+            "id": "angular-netcore",
+            "name": "SPA Angular + API.NET Core",
+            "projects": [
+                {
+                    "id": "spa-angular",
+                    "suffix": "SPA"
+                },
+                {
+                    "id": "api-netcore",
+                    "suffix": "API"
+                }
+            ]
+        }
+    ]
+}
